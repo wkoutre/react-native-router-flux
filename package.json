@@ -40,7 +40,8 @@
         "react-native-experimental-navigation":
             "https://github.com/wkoutre/react-native-experimental-navigation",
         "react-native-tabs": "^1.0.9",
-        "react-static-container": "^1.0.1"
+        "react-static-container": "^1.0.1",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4"
     },
     "devDependencies": {
         "babel-jest": "20.0.3",
@@ -55,7 +56,8 @@
     },
     "peerDependencies": {
         "react": "*",
-        "react-native": "*"
+        "react-native": "*",
+        "babel-plugin-transform-decorators-legacy": "*"
     },
     "jest": {
         "preset": "react-native",
